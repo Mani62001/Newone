@@ -1,0 +1,141 @@
+# Introduction to Python
+Python is introduced by Guido Van Russom in 1991.
+
+Python is case sensitive language.
+
+Python is general purpose high level programming language which supports OOPs and POPs
+
+OOPs based upon classes and objects.
+POPs based on fuctions, structure oriented
+Syntax - It is a grammar for any programming language or it is a format that has to be followed while writing the code.
+# Variables
+Varaibles are containers which hold some data or value/information.
+
+a=10
+
+a  ---> variable
+=  ---> Operator (Assignmnet operator)
+10 ---> value/litreal
+# Comments in Python - A piece of code which is not executable by the compiler. Denotion is '#'
+# Rules to be followed while naming a varaible.
+
+Rule 1. Keywords and inbuilt functions names are not allowed to use as a varaible name.
+
+Keywords - These are some certain words which already have predefined meaning in python. eg, def, True, class, if
+
+Inbuilt functions - A  block of code which has predefined task in python. eg, print(), range(), len(), type()
+
+-----------------------------------------------------------------------------------------------------------------
+
+Rule 2. Variable names can start with a letter or underscore(_) but never with number.
+import keyword
+print(keyword.kwlist)
+# Operators
+# Arithmetic operator - used to perform basic arithmetic operation.
+
+a=10   # Addition
+b=12
+c=a+b
+print(c)
+a=5
+b=7
+print(a+b)
+print(b-a)
+print(b*a)
+print(b/a)
+a=9
+b=2
+print(a%b)   # Modulous
+a=2
+b=4
+c=a**b    # Exponential
+print(c)
+a=5
+b=7
+print(b//a)  # floor division
+# Comparison Operator - These are used to return a boolean value after the comparison i.e, True/False
+
+# equal to (==)
+
+a=10
+b=10
+print(a==b)
+a=10
+b=10
+print(a!=b)
+a = 4
+b = 5
+c= 4
+print(a>b)
+print(a<b)
+print(a<=c)
+print (a>=c)
+
+# Assignmnet operator - These are used to assign values to a varaible.
+
+a=10
+print(a)
+a+=1
+print(a)
+a+=1
+print(a)
+a-=1
+print(a)
+a*=2
+print(a)
+b=2
+print(b)
+b+=1
+print(b)
+x=10
+print(x)
+x=10
+x+=1
+print(x)
+# Logical operator - are used to perform logical operations on boolean values. eg, include operators like 'AND', 'OR', 'NOT'
+
+x=3
+print(x>4 and x<5)     # here both the conditions must be true
+x=3
+print(x>4 or x<5)     # here any of the condition is true, will return true 
+x=5
+print(not(x>2 and x<10))  # here it will reverse the result, if we get true it will reverse to false
+# Identity operator - These are used to compare identity of two objects.
+# this operator includes 'is' and 'is not'
+
+
+a=10
+b=10
+c=20
+
+if a is b:
+    print("a and b are equal")
+if a is not c:
+    print("a and c are not equal")
+a="Sumit"
+b="Sumit"
+c=x
+
+print(a is b)
+print(a == b)
+print( a is c)
+type(c)
+c="x"
+print(c)
+type(c)
+print(a is b is not c)
+a="10"
+print(a)
+type(a)
+# Membership operator - used to check if a value is a member of a sequence (such as list, tuple)
+# The two membership operators are 'in' and 'not in'
+
+
+fruits = ['Apple', 'Banana', 'Chicku']
+if 'Banana' in fruits:
+    print("It Present")
+if 'Orange' in fruits:
+    print("Orange not in present")
+a = ['Apple', 'Banana', 'Chicku']
+print('Banana' in a)
+print("Orange" not in a)
